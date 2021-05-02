@@ -1,9 +1,11 @@
 # Puzzle time
 ## The problem
 I have a page that contains an Iframe, it looks like this:
+
 ![Page with an iFrame](./readme_assets/Page-working.png)
 
 But when I try and test this in Cypress, the Customer ID doesn't appear in the iFrame:
+
 ![Page in Cypress](./readme_assets/Page-failing.png)
 
 Why isn't this working?
