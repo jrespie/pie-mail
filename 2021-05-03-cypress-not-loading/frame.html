@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <style>
+            body { font-family: sans-serif;}
+        </style>
+    </head>
+    <body>
+        <div>
+            Customer purchase information for ID: <span id="CustomerId"></span><br/>
+            <ul>
+                <li>One banana</li>
+                <li>Two apples</li>
+                <li>Three grapes</li>
+            </ul>
+        </div>
+        <script>
+            document.getElementById("CustomerId").innerHTML=top.document.getElementById("CustomerId").innerText
+        </script>
+    </body>
+</html>
